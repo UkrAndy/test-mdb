@@ -4,8 +4,8 @@ import mongoose from 'mongoose'
 class UsersDBService {
   static async getList(filters) {
     try {
-      const exists = await User.checkCollectionExists()
-      if (!exists) return []
+      // const exists = await User.checkCollectionExists()
+      // if (!exists) return []
       console.log('----filters')
       console.log(filters)
 
